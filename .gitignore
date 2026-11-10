@@ -1,0 +1,16 @@
+# local secrets
+.env
+.env.local
+**/.env
+**/.env.local
+# deps / builds
+node_modules/
+dist/
+.venv/
+__pycache__/
+.pytest_cache/
+.vercel
+*.tsbuildinfo
+# supabase local
+supabase/.branches
+supabase/.temp

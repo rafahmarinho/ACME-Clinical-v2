@@ -1,0 +1,6 @@
+fastapi==0.162.2
+pydantic==2.14.3
+pydantic-settings==2.16.2
+supabase==2.34.1
+python-multipart==0.0.33
+reportlab==5.1.0
