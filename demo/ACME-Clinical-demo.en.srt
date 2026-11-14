@@ -1,119 +1,119 @@
 1
-00:00:01,151 --> 00:00:02,958
+00:00:01,159 --> 00:00:02,965
 Welcome to ACME Clinical,
 
 2
-00:00:02,958 --> 00:00:06,426
+00:00:02,965 --> 00:00:06,434
 a central monitoring station for hospital wards.
 
 3
-00:00:06,426 --> 00:00:09,108
+00:00:06,434 --> 00:00:09,116
 Staff sign in with their hospital account,
 
 4
-00:00:09,108 --> 00:00:11,301
+00:00:09,116 --> 00:00:11,309
 and each role sees its own menu.
 
 5
-00:00:12,107 --> 00:00:15,297
+00:00:11,967 --> 00:00:15,156
 The ward overview shows every bed at a glance:
 
 6
-00:00:15,297 --> 00:00:19,041
+00:00:15,156 --> 00:00:18,901
 twelve fictitious patients and ten simulated monitors,
 
 7
-00:00:19,041 --> 00:00:22,519
+00:00:18,901 --> 00:00:22,379
 with vital signs in large, easy-to-read numbers.
 
 8
-00:00:25,192 --> 00:00:28,279
+00:00:24,974 --> 00:00:28,061
 Switch to 3D to see the unit in space.
 
 9
-00:00:28,279 --> 00:00:30,224
+00:00:28,061 --> 00:00:30,006
 Beds light up by alarm state,
 
 10
-00:00:30,224 --> 00:00:33,392
+00:00:30,006 --> 00:00:33,174
 and a nurse walks to the most urgent patient.
 
 11
-00:00:35,880 --> 00:00:40,000
+00:00:35,608 --> 00:00:39,728
 Live monitoring streams heart rate, oxygen saturation,
 
 12
-00:00:40,000 --> 00:00:42,136
+00:00:39,728 --> 00:00:41,864
 respiration, blood pressure,
 
 13
-00:00:42,136 --> 00:00:44,880
+00:00:41,864 --> 00:00:44,608
 and a synthetic ECG for every bed.
 
 14
-00:00:47,362 --> 00:00:50,197
+00:00:47,038 --> 00:00:49,874
 In the Simulation Lab, we choose a monitor,
 
 15
-00:00:50,197 --> 00:00:52,175
+00:00:49,874 --> 00:00:51,852
 apply the low oxygen scenario,
 
 16
-00:00:52,175 --> 00:00:54,699
+00:00:51,852 --> 00:00:54,376
 and advance the clock by one minute.
 
 17
-00:00:57,112 --> 00:00:59,124
+00:00:56,801 --> 00:00:58,813
 The alarm appears right away.
 
 18
-00:00:59,124 --> 00:01:01,480
+00:00:58,813 --> 00:01:01,169
 Acknowledging it records who responded,
 
 19
-00:01:01,480 --> 00:01:05,074
+00:01:01,169 --> 00:01:04,763
 but the alarm stays active while the condition continues.
 
 20
-00:01:11,088 --> 00:01:14,929
+00:01:09,301 --> 00:01:13,142
 Each patient record brings together trends, alarm history,
 
 21
-00:01:14,929 --> 00:01:16,800
+00:01:13,142 --> 00:01:15,013
 and clinical observations.
 
 22
-00:01:19,289 --> 00:01:22,671
+00:01:17,486 --> 00:01:20,868
 Devices tracks battery, connection, and sensor health,
 
 23
-00:01:22,671 --> 00:01:25,451
+00:01:20,868 --> 00:01:23,649
 and biomedical staff log maintenance work.
 
 24
-00:01:27,871 --> 00:01:30,235
+00:01:26,052 --> 00:01:28,416
 Alarm limits are set for each unit,
 
 25
-00:01:30,235 --> 00:01:32,546
+00:01:28,416 --> 00:01:30,727
 with patient-specific overrides.
 
 26
-00:01:34,951 --> 00:01:37,316
+00:01:33,098 --> 00:01:35,463
 Reports are generated in Python,
 
 27
-00:01:37,316 --> 00:01:40,126
+00:01:35,463 --> 00:01:38,273
 and can be downloaded as PDF or CSV.
 
 28
-00:01:42,772 --> 00:01:47,185
+00:01:40,618 --> 00:01:45,030
 Administrators manage the team, and assign each person's role.
 
 29
-00:01:49,833 --> 00:01:54,133
+00:01:47,433 --> 00:01:51,733
 Every event is logged and saved, so results survive a reload.
 
 30
-00:01:54,133 --> 00:01:56,395
+00:01:51,733 --> 00:01:53,996
 That's ACME Clinical.
